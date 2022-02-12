@@ -1,0 +1,72 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photographic {
+    height: 145px;
+    width: 200px;
+    background-color: #f6ddee;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -13px black;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lens {
+    height: 110px;
+    width: 110px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inside-lens {
+    height: 90px;
+    width: 90px;
+    background-color: #c54fad;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-lens-2 {
+    border-top: 30px solid  #f6ddee;
+    border-bottom: 30px solid #d375bd;
+    border-left: 30px solid #e098ce;
+    border-right: 30px solid #ebbbde;
+    border-radius: 50px;
+   
+}
+
+.flash {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    right: 15px;
+    top: 15px;
+   
+    
+}
+
+.button {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: #c54fad;
+    border-radius: 60px;
+    left: 20px;
+    top: -5px;
+    
+}
